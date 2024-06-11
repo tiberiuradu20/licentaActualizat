@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "871161346601",
+    "project_id": "gimprov1",
+    "storage_bucket": "gimprov1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871161346601:android:c9a700ab2bea273a673a38",
+        "android_client_info": {
+          "package_name": "com.example.gimpro_v1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgz5C3RI8eeFlPPHx8cj1C5mk4nyTsChQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

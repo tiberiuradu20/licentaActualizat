@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.gimpro_v1.ui.training.TrainingFragment"
+        android:label="@string/title_training"
+        tools:layout="@layout/fragment_training" />
+
+    <fragment
+        android:id="@+id/navigation_challenge"
+        android:name="com.example.gimpro_v1.ui.challenge.ChallengeFragment"
+        android:label="@string/title_challenge"
+        tools:layout="@layout/fragment_challenge" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.example.gimpro_v1.ui.progress.ProgressFragment"
+        android:label="@string/title_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.gimpro_v1.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
